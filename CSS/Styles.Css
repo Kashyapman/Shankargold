@@ -1,0 +1,97 @@
+
+#header-img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    display: inline-block;
+}
+h1{
+    display: inline-block;
+    width: auto;
+    height: fit-content;
+    font-size: 50px;
+    color: gold;
+    font-family:'Courier New', Courier, monospace;
+}
+#nav-bar{
+    display: inline-block;
+    float: right;
+    width: auto;
+    font-size: large;
+    height: max-content;
+    color: white;
+}
+
+body{
+    background-image: url("./../Images/Background.jpg");
+}
+
+#center_text{
+    text-align: center;
+}
+
+#text_header{
+    font-size: 100px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    color: gold;
+    }
+
+#text{
+    word-wrap: break-word;
+    font-size: 25px;
+    color: gold;
+    font-weight: bold;
+    background-color: transparent;
+}
+
+#Images{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 20px 10px;
+}
+
+#Images img {
+    width: 100%;
+    max-width: 350px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+
+#Designs{
+    color: gold;
+    font-size: 200px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#google-map{
+    width: 10px;
+    height: 20px;
+}
+
+#contact{
+    color: white;
+}
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+  }
+.fa:hover {
+    opacity: 0.7;
+  }
+  
+.fa-instagram {
+    background: rgb(6, 18, 82);
+    color: white;
+  }
